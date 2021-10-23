@@ -4,10 +4,13 @@ export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
   ssr: true,
+  router: {
+    base: '/nuxt-school-beauty/'
+  },
   // Global page headers: https://go.nuxtjs.dev/config-head
   // Можно указывать в обьекте head в компоненте <script>export default {head: {meta: [{}]}
   head: {
-    title: '!!!ps nuxt template!!!',
+    title: 'Error Page',
     // Мета каждой страницы по дефолту
     meta: [
       { charset: 'utf-8' },
