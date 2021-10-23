@@ -70,7 +70,7 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/eslint
     // '@nuxtjs/eslint-module',
-
+    '@nuxt/image',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -78,18 +78,17 @@ export default {
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
     // https://go.nuxtjs.dev/pwa
-    '@nuxtjs/pwa',
+    //'@nuxtjs/pwa',
     // https://marquez.co/docs/nuxt-optimized-images/
-    '@aceforth/nuxt-optimized-images',
-    'cookie-universal-nuxt',
+    //'cookie-universal-nuxt',
     '@nuxtjs/style-resources',
     'nuxt-webfontloader',
-    ['nuxt-vuex-localstorage', {
-      ...(isDev && {
-        mode: 'debug'
-      }),
-      localStorage: ['local'] //  If not entered, “localStorage” is the default value
-    }]
+    //['nuxt-vuex-localstorage', {
+    //  ...(isDev && {
+    //    mode: 'debug'
+    //  }),
+    //  localStorage: ['local'] //  If not entered, “localStorage” is the default value
+    //}]
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios

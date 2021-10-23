@@ -29,6 +29,7 @@
     "@aceforth/nuxt-optimized-images": "^1.4.0",
     "@babel/eslint-parser": "^7.14.7",
     "@nuxt/bridge": "npm:@nuxt/bridge-edge@^3.0.0-27238235.a1bcc53",
+    "@nuxt/image": "^0.6.0",
     "@nuxtjs/eslint-config": "^6.0.1",
     "@nuxtjs/eslint-module": "^3.0.2",
     "babel-eslint": "^10.1.0",

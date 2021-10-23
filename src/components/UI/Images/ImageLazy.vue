@@ -1,7 +1,8 @@
 <template lang="pug">
 //-image-lazy(:srcImg="'block1.svg'")
 //-image-lazy(:srcImg="'difam/block6-2.png'")
-img(loading="lazy", :src="require(`~/assets/img/${srcImg}`)", alt=altImg)
+//img(loading="lazy", :src="require(`~/assets/img/${srcImg}`)", alt=altImg)
+nuxt-picture(:src="`/img/${srcImg}`" format="webp" alt=altImg)
 </template>
 
 <script>
