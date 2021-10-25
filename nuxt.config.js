@@ -35,7 +35,8 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
-    { src: '@/plugins/nuxt-swiper-plugin.js' },
+    { src: '@/plugins/nuxt-swiper-plugin.js'},
+    { src: '@/plugins/animateOnScroll.client.js'},
   ],
   // Путь к папке исходников
   srcDir: 'src/',
